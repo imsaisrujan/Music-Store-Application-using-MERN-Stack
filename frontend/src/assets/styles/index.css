@@ -1,0 +1,284 @@
+body {
+  background-color: #13171f;
+  color: #f1f7ff;
+}
+
+main {
+  min-height: 80vh;
+}
+
+.heading {
+  color: #f8b525;
+  color: #f1f7ff;
+}
+
+.bg-custom {
+  background-color: #33373f;
+  color: #f1f7ff;
+}
+
+.footer-bg {
+  background-color: #23272f;
+}
+
+/* Home page */
+.carousel-caption {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.home-heading {
+  margin-top: 3em;
+}
+
+.product-title {
+  height: 1.5em;
+  /* Set a fixed height */
+  overflow: hidden;
+  /* Hide overflow content */
+  text-overflow: ellipsis;
+  /* Add ellipsis for long text */
+  white-space: nowrap;
+  /* Prevent wrapping */
+}
+
+.product-title:hover {
+  color: #f8b525;
+  transition: 250ms;
+}
+
+h3.card-text {
+  margin-top: 0.5em;
+}
+
+.card-title,
+.card-text {
+  color: #f1f7ff;
+}
+
+.feature-card:hover {
+  box-shadow: 0 0 20px 8px rgba(248, 181, 37, 0.5);
+  transition: 500ms;
+}
+
+/* Header component */
+header {
+  border-bottom: 1px solid #888;
+  padding: 0.5em 0;
+}
+
+.search-term {
+  font-style: italic;
+}
+
+.nav-link, .order-product-link {
+  color: #f1f7ff;
+}
+
+[href='/']>svg {
+  font-size: 1.75rem;
+}
+
+[href='/'] > svg, [href='/cart']>svg {
+  padding-bottom: 2px;
+}
+
+.cart-span,
+.logo-span {
+  display: inline-block;
+  padding-left: 0.25em;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+  color: #f8b525;
+  transition: 250ms;
+}
+
+.dropdown-menu.show {
+  background-color: #33373f;
+  color: #f1f7ff;
+}
+.dropdown-item {
+  color: #f1f7ff;
+}
+.dropdown-item:hover {
+  color: #03070f;
+}
+
+#search-btn:hover,
+#review-btn:hover,
+#checkout-btn:hover,
+#order-btn:hover,
+#shipped-btn:hover {
+  background-color: #f8b525;
+  transition: 450ms;
+}
+
+.form-control, .form-control:focus {
+  background-color: #40474f;
+  color: #f1f7ff;
+}
+
+/* Product edit page */
+.edit-form-element {
+  margin-bottom: 1.5em;
+}
+
+/* Cart page */
+.cart-flex {
+  align-items: flex-start;
+}
+
+.cart-card .list-group-item {
+  background-color: #33373f;
+  color: #f1f7ff;
+}
+
+.order {
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.order-product-link a {
+  color: #f1f7ff;
+  text-decoration: none;
+}
+.order-product-link a:hover {
+  color: #f8b525;
+  transition: 250ms;
+}
+
+/* Profile page */
+.profile-field {
+  padding-bottom: 0.75em;
+}
+
+/* Tables */
+table td,
+table th {
+  text-align: center;
+}
+
+.table > tbody, thead {
+  color: #f1f7ff;
+}
+
+#search-input::placeholder,
+#review-comment::placeholder,
+.form-control::placeholder {
+  color: #b1b7bf;
+}
+
+/* Details page */
+.stock-card {
+  border: 1px solid #80878f;
+}
+
+.stock {
+  padding: 1em;
+}
+
+.stock-row {
+  padding-bottom: 1em;
+}
+
+.review-block {
+  padding: 1em;
+  margin-bottom: 1em; 
+  border: 1px solid #80878f
+}
+
+.review-date {
+  padding-top: 1em;
+}
+
+.review-comment {
+  word-wrap: break-word;
+  margin-bottom: 0;
+}
+
+.review {
+  margin-top: 30px;
+  color: #f1f7ff;
+}
+
+.review-card {
+  border: 1px solid #f1f7ff05;
+}
+
+.review h2,
+.review-form-heading {
+  color: #f1f7ff;
+  padding: 1em 0 0.5em;
+}
+
+.review button {
+  margin-top: 10px;
+}
+
+.review-user {
+  font-weight: 700;
+}
+
+.details-heading {
+  margin: 1em 0 1em;
+}
+
+.details h3 {
+  font-size: 1.5rem;
+  padding-top: 0.5em;
+}
+
+.details .description {
+  font-size: 1.25rem;
+  line-height: 1.3;
+  color: #c0c7cf;
+}
+
+/* Ratings component */
+.rating span {
+  margin: 0.1rem;
+}
+
+.rating svg {
+  color: #f8e825;
+  color: #f8b525;
+}
+
+.rating-text {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding-left: 0.5rem;
+  color: #ccc;
+}
+
+/* Where are these being used? */
+.list-group h2 {
+  background-color: #33373f;
+  color: #f1f7ff;
+}
+
+@media (max-width: 768px) {
+  .details {
+    margin: 1em auto;
+  }
+
+  .search-box {
+    margin-top: 1em;
+  }
+
+  .order-summary {
+    margin-top: 2em;
+  }
+}
+
+@media (max-width: 992px) {
+  .search-input, .search-btn {
+    padding: 0.3rem 0 0.3rem 0 !important;
+  }
+}
