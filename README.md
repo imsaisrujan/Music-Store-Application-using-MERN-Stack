@@ -2,6 +2,7 @@
 # 🎶 Music Store Application
 
 Welcome to this repository showcasing a Music Store Application built using the MERN stack (MongoDB, Express.js, React.js, Node.js). This application allows users to browse, search, and purchase music albums online.
+
 ---
 
 ## 📁 Project Structure
